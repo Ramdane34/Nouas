@@ -1,0 +1,1 @@
+ALTER TABLE `quests` ADD `intro` VARCHAR(255) NOT NULL DEFAULT 'Un questionnaire' AFTER `theme`;

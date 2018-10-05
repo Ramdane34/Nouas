@@ -1,0 +1,142 @@
+*
+{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+body
+{
+    margin: 0;
+    background-color: #3B8EED;
+}
+nav
+{
+    min-width: 800px;
+    overflow: hidden;
+    background-color: #E8E8E8;
+}
+nav p
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+nav a
+{
+    display: block;
+    padding: 20px;
+}
+a
+{
+    color: #3B8EED;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #ED9A3B;
+}
+nav a:hover
+{
+    background-color: #3B8EED;
+    color: #E8E8E8;
+}
+a:visited
+{
+    color: #3B8EED;
+}
+a:visited:hover
+{
+    color: #ED9A3B;
+}
+nav a:visited:hover
+{
+    background-color: #3B8EED;
+    color: #E8E8E8;
+}
+h1
+{
+    font-size: 1.4em;
+    color: #ED9A3B;
+    text-align: center;
+}
+h2
+{
+    font-size: 1.2em;
+    color: #3B8EED;
+}
+input
+{
+    margin-left: 50px;
+}
+#intro
+{
+    text-align: center;
+}
+#quests
+{
+    min-width: 800px;
+    width: 1000px;
+    background-color: #E8E8E8;
+    padding: 10px;
+    float: right;
+    margin: 10px;
+}
+#infosCompte
+{
+    min-width: 100px;
+    max-width: 200px;
+    background-color: #E8E8E8;
+    padding: 10px;
+    margin: 10px;
+}
+#quests p, #modo p
+{
+    padding: 10px;
+    margin: 0;
+}
+#modo
+{
+    min-width: 800px;
+    width: 1000px;
+    background-color: #ED9A3B;;
+    padding: 10px;
+    float: right;
+    margin: 10px;
+}
+#modo a, #modo a:visited
+{
+    color: #E8E8E8;
+}
+#modo a:hover, #modo a:visited:hover
+{
+    color: #3B8EED;
+}
+.center
+{
+    text-align: center;
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E8E8;
+}
+@media(max-width: 830px)
+{
+    nav p
+    {
+        float: none;
+    }
+    #quests, #modo
+    {
+        float: none;
+        min-width: 100px;
+        max-width: 800px;
+        width: auto;
+    }
+    #infosCompte
+    {
+        max-width: 800px;
+    }
+}
