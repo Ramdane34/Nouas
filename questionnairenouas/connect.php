@@ -1,4 +1,5 @@
 <?php
+//Git
 include("../includes/script_maintenance.php");
 
 session_start();
