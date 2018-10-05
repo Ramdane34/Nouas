@@ -1,4 +1,4 @@
--<?php
+<?php
 include("../includes/script_maintenance.php");
 
 session_start();
