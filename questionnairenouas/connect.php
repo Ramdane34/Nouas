@@ -1,5 +1,5 @@
 <?php
-//Git Ok2
+//Git Ok
 include("../includes/script_maintenance.php");
 
 session_start();
